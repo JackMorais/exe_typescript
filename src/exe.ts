@@ -6,9 +6,11 @@ const resultado: number = soma(5, 3);
 console.log("Resultado da Soma:", resultado);
 
 // -----------------------------------------------
+
 const nome: string  = 'lucas';
-function saudacao(): void {
-    console.log("Olá: " +nome);
+function saudacao(){
+    return `Olá ${nome}`;
 }
 
-saudacao();
+const saud: string = saudacao();
+console.log(saud)

@@ -7,6 +7,7 @@ console.log("Resultado da Soma:", resultado);
 // -----------------------------------------------
 const nome = 'lucas';
 function saudacao() {
-    console.log("Olá: " + nome);
+    return `Olá ${nome}`;
 }
-saudacao();
+const saud = saudacao();
+console.log(saud);
